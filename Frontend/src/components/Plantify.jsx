@@ -16,7 +16,7 @@ const Plantify = () => {
 
       <div className="flex flex-col items-center my-10 gap-8">
         {/* Learn More Section */}
-        <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className=" w-full flex  flex-col sm:flex-row items-center justify-between gap-4">
           <div className="bg-[rgb(82,110,72)] w-full sm:w-[60%] h-40 rounded-[30px] font-semibold text-white text-lg sm:text-2xl md:text-3xl text-center py-10 sm:py-14">
             Learn More about plants on Plantify 🌿
           </div>

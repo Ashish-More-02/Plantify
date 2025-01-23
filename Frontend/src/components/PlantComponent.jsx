@@ -11,7 +11,7 @@ const PlantComponent = ({ h1, p1, p2, photo, bgColor, variant }) => {
           {/* Image Section */}
           <img
             src={photo}
-            className="w-[80%] md:w-[40%] lg:w-[30%] rounded-[20px] mb-6 md:mb-0"
+            className="w-[80%] md:w-[40%] lg:w-[30%] rounded-[20px] mb-6 md:mb-0 mx-20"
             alt={h1}
           />
           {/* Text Section */}
@@ -19,10 +19,10 @@ const PlantComponent = ({ h1, p1, p2, photo, bgColor, variant }) => {
             <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold text-center md:text-left w-full md:w-[60%]">
               {h1}
             </h1>
-            <p className="text-white text-md md:text-lg lg:text-2xl mt-6 w-full md:w-[60%] text-center md:text-left">
+            <p className="text-white text-md md:text-lg lg:text-2xl mt-6 w-full md:w-[80%] text-center md:text-left">
               {p1}
             </p>
-            <p className="text-white text-md md:text-lg lg:text-2xl mt-4 w-full md:w-[60%] text-center md:text-left">
+            <p className="text-white text-md md:text-lg lg:text-2xl mt-4 w-full md:w-[80%] text-center md:text-left">
               {p2}
             </p>
           </div>
