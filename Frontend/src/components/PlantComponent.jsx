@@ -44,7 +44,7 @@ const PlantComponent = ({ h1, p1, p2, photo, bgColor, variant }) => {
           {/* Image Section */}
           <img
             src={photo}
-            className="w-[80%] md:w-[40%] lg:w-[30%] rounded-[20px] mt-6 md:mt-0"
+            className="w-[80%] md:w-[40%] lg:w-[30%] rounded-[20px] mt-6 md:mt-0 max-h-fit"
             alt={h1}
           />
         </>

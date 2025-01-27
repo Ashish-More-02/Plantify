@@ -11,7 +11,7 @@ const About = () => {
         <div className="bg-[rgb(251,246,233)] sm:w-[80%]  mx-6 sm:mx-auto text-2xl sm:text-4xl font-semibold text-center py-10 rounded-3xl my-5 ">
           🌱 Your one-stop destination for all things green and beautiful.
         </div>
-        <div className="bg-whitesm:w-[80%] sm:w-[80%] mx-6 sm:mx-auto text-2xl sm:text-4xl font-semibold text-center py-10 rounded-3xl my-5 ">
+        <div className="bg-white sm:w-[80%] mx-6 sm:mx-auto text-2xl sm:text-4xl font-semibold text-center py-10 rounded-3xl my-5 ">
           🌿 We believe plants are more than decor—they're life-givers and
           stress-busters.
         </div>

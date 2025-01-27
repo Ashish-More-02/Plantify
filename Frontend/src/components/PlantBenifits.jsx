@@ -6,12 +6,12 @@ import work from "../assets/logos/home_work.svg";
 const PlantBenifits = () => {
   return (
     <div>
-      <h1 className="text-5xl sm:text-4xl md:text-5xl font-semibold text-center mt-16 sm:mt-24 mb-8 sm:mb-10">
+      <h1 className="text-5xl sm:text-4xl md:text-5xl font-semibold text-center mt-28 sm:mt-28 mb-10 sm:mb-10">
         Benefits of Plants
       </h1>
-      <div className="flex flex-col sm:flex-row justify-center items-center sm:justify-evenly flex-wrap gap-8 sm:gap-6">
+      <div className="flex flex-col sm:flex-row justify-center items-center sm:justify-evenly flex-wrap gap-8 sm:gap-6 ">
         {/* Air Purifiers Card */}
-        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg">
+        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg hover:bg-gray-100 transition-all duration-300 cursor-pointer">
           <div className="flex items-center">
             <img
               src={air}
@@ -29,7 +29,7 @@ const PlantBenifits = () => {
         </div>
 
         {/* Productivity Booster Card */}
-        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg">
+        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg hover:bg-gray-100 transition-all duration-300 cursor-pointer">
           <div className="flex items-center">
             <img
               src={work}
@@ -47,7 +47,7 @@ const PlantBenifits = () => {
         </div>
 
         {/* Gardening Gains Card */}
-        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg">
+        <div className="h-auto sm:h-[320px] w-[90%] sm:w-[300px] bg-white rounded-[30px] p-6 shadow-lg hover:bg-gray-100 transition-all duration-300 cursor-pointer">
           <div className="flex items-center">
             <img
               src={potted_plant}

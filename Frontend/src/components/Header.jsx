@@ -36,12 +36,12 @@ const Header = () => {
 
       {/* Links (Desktop and Mobile Menu) */}
       <div
-        className={`absolute sm:static top-16 right-0 sm:flex sm:items-center sm:justify-evenly w-full sm:w-[45%] bg-white sm:bg-transparent transition-all duration-300 ${
+        className={`absolute sm:static top-16 right-0 sm:flex sm:items-center sm:justify-evenly w-full sm:w-[45%] bg-white sm:bg-transparent transition-all duration-300 z-50 ${
           isMenuOpen ? "block" : "hidden"
         } sm:block`}
       >
         <div
-          className={`flex flex-col sm:flex-row sm:justify-evenly w-full ${
+          className={`flex flex-col sm:flex-row sm:justify-evenly w-full z-50 ${
             isMenuOpen ? "items-end pr-6" : "sm:items-center"
           }`}
         >
